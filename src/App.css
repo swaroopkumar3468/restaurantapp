@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.restaurant-app {
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header p {
+  margin: 5px 0;
+}
+
+.button {
+  background-color: #fff;
+  color: #333;
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.button.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dish {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+}
+
+.dish h2 {
+  margin: 0;
+}
+
+.dish p {
+  margin: 5px 0;
+}
+
+.dish button {
+  background-color: #333;
+  color: green;
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.dish span {
+  margin: 0 5px;
+  font-weight: bold;
+}
+.dish-item {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.dish-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 10px;
+}
+.image {
+  height: 100px;
+  width: 100px;
+}
